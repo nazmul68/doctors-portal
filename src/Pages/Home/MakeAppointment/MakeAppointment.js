@@ -6,12 +6,12 @@ import "./MakeAppointment.css";
 const MakeAppointment = () => {
   return (
     <section className="w-11/12 mx-auto mt-32 rounded bg-appointment">
-      <div className="hero">
-        <div className="hero-content flex-col lg:flex-row">
+      <div className="hero p-2">
+        <div className="hero-content flex-col lg:flex-row p-0">
           <div className="md:w-1/2">
             <img
               src={doctor}
-              className="md:w-5/6 -mt-32 -mb-4 mx-auto hidden lg:block rounded-lg"
+              className="md:w-5/6 -mt-32 -mb-2 mx-auto hidden lg:block rounded-lg"
               alt=""
             />
           </div>

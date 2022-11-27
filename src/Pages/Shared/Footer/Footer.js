@@ -4,7 +4,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer-bg ">
+    <div className="footer-bg bg-base-200">
       <footer className="footer p-10 justify-center md:justify-evenly">
         <div>
           <span className="footer-title">SERVICES</span>
